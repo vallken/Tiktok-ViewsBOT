@@ -8,7 +8,7 @@ class Main:
         self.session = requests.session()
         self.start = time.time()
         cursor.hide()
-        txt=self.format(" Tiktok ", " ID Video Tik Tok :  ")
+        txt=self.format(" https://www.tiktok.com/@vallrisu/video/7143985454436715803 ", " ID Video Tik Tok : 7143985454436715803  ")
         YourId=input(txt)
         self.videos = YourId
     def format(self, symbol, text):
